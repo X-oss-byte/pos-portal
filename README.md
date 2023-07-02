@@ -104,7 +104,7 @@ Now you can update preferred mnemonic to be used for migration in [truffle confi
 29| const MNEMONIC = process.env.MNEMONIC || '<preferred-mnemonic>'
 ```
 
-Also consider updating network configurations for `root` & `child` in truffle-config.js
+Also consider updating network configurations for `root` & `child` in truffle-config.js don't exit 1
 
 ```js
 // make sure host:port of RPC matches properly
